@@ -1,0 +1,362 @@
+Initializing
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0012FD94 type=6: not found
+Lookup location=0012FD9C type=6: not found
+c:\mirek\calc2\stdsoap2.cpp(6375): malloc(96) = 003D3DA0
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0012FD94 type=16: not found
+Embedded_id 0012FD94 type=16 id=0
+Element begin tag='ns:mul' id='0' type=''
+Embedded_id 0012FD94 type=6 id=-1
+Lookup location=0012FD94 type=6: not found
+Element begin tag='a' id='-1' type=''
+Element ending tag='a'
+Embedded_id 0012FD9C type=6 id=-1
+Lookup location=0012FD9C type=6: not found
+Element begin tag='b' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:mul'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='websrv.cs.fsu.edu' path='/~engelen/calcserver.cgi' port=80
+Opening socket 3992 to host='websrv.cs.fsu.edu' port=80
+Calculating the message size with attachments, current count=446
+New count is 446 bytes
+Begin send phase (socket=3992 mode=0x1 count=446)
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(12) = 003D3E90
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0012FD94 type=16: not found
+Embedded_id 0012FD94 type=16 id=0
+Element begin tag='ns:mul' id='0' type=''
+Embedded_id 0012FD94 type=6 id=-1
+Lookup location=0012FD94 type=6: not found
+Element begin tag='a' id='-1' type=''
+Element ending tag='a'
+Embedded_id 0012FD9C type=6 id=-1
+Lookup location=0012FD9C type=6: not found
+Element begin tag='b' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:mul'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\mirek\calc2\stdsoap2.cpp(5787): free(003D3DA0)
+Free pointer hashtable
+Free ID hashtable
+c:\mirek\calc2\stdsoap2.cpp(6375): malloc(96) = 003D3DA0
+Free ID hashtable
+Read 167 bytes from socket 3992
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Date: Wed, 15 Nov 2006 10:45:03 GMT
+HTTP header: Server: Apache/2.0.51 (Fedora)
+HTTP header: Content-Length: 464
+HTTP header: Connection: close
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(36) = 003D5FA8
+Finished HTTP header parsing
+Keep alive connection = 0
+Read 464 bytes from socket 3992
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\mirek\calc2\stdsoap2.cpp(7619): malloc(25) = 003D1090
+Enlarging look-aside buffer to append data, old size=0, new size=64
+c:\mirek\calc2\stdsoap2.cpp(7441): malloc(64) = 003D1138
+c:\mirek\calc2\stdsoap2.cpp(7666): malloc(64) = 003D1208
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(28) = 003D12D8
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(28) = 003D1380
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(23) = 003D1428
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/1999/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(23) = 003D14D0
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/1999/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(31) = 003D1578
+Push namespace binding (level=0) 'ns' 'urn:calc'
+Push NOT OK: no match found for 'urn:calc' in namespace mapping table (added to stack anyway)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\mirek\calc2\stdsoap2.cpp(12566): malloc(42) = 003D1628
+c:\mirek\calc2\stdsoap2.cpp(7619): malloc(42) = 003D16E0
+c:\mirek\calc2\stdsoap2.cpp(7666): malloc(64) = 003D1798
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Tags 'ns:mulResponse' and 'ns:mulResponse' match but namespaces differ
+Initializing
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0012FD94 type=6: not found
+Lookup location=0012FD9C type=6: not found
+c:\mirek\calc2\stdsoap2.cpp(6375): malloc(96) = 003D3DA0
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0012FD94 type=10: not found
+Embedded_id 0012FD94 type=10 id=0
+Element begin tag='ns:add' id='0' type=''
+Embedded_id 0012FD94 type=6 id=-1
+Lookup location=0012FD94 type=6: not found
+Element begin tag='a' id='-1' type=''
+Element ending tag='a'
+Embedded_id 0012FD9C type=6 id=-1
+Lookup location=0012FD9C type=6: not found
+Element begin tag='b' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='websrv.cs.fsu.edu' path='/~engelen/calcserver.cgi' port=80
+Opening socket 3992 to host='websrv.cs.fsu.edu' port=80
+Calculating the message size with attachments, current count=446
+New count is 446 bytes
+Begin send phase (socket=3992 mode=0x1 count=446)
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(12) = 003D3E90
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0012FD94 type=10: not found
+Embedded_id 0012FD94 type=10 id=0
+Element begin tag='ns:add' id='0' type=''
+Embedded_id 0012FD94 type=6 id=-1
+Lookup location=0012FD94 type=6: not found
+Element begin tag='a' id='-1' type=''
+Element ending tag='a'
+Embedded_id 0012FD9C type=6 id=-1
+Lookup location=0012FD9C type=6: not found
+Element begin tag='b' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\mirek\calc2\stdsoap2.cpp(5787): free(003D3DA0)
+Free pointer hashtable
+Free ID hashtable
+c:\mirek\calc2\stdsoap2.cpp(6375): malloc(96) = 003D3DA0
+Free ID hashtable
+Read 167 bytes from socket 3992
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Date: Wed, 15 Nov 2006 10:45:20 GMT
+HTTP header: Server: Apache/2.0.51 (Fedora)
+HTTP header: Content-Length: 464
+HTTP header: Connection: close
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(36) = 003D5FA8
+Finished HTTP header parsing
+Keep alive connection = 0
+Read 464 bytes from socket 3992
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\mirek\calc2\stdsoap2.cpp(7619): malloc(25) = 003D1090
+Enlarging look-aside buffer to append data, old size=0, new size=64
+c:\mirek\calc2\stdsoap2.cpp(7441): malloc(64) = 003D1138
+c:\mirek\calc2\stdsoap2.cpp(7666): malloc(64) = 003D1208
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(28) = 003D12D8
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(28) = 003D1380
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(23) = 003D1428
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/1999/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(23) = 003D14D0
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/1999/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(31) = 003D1578
+Push namespace binding (level=0) 'ns' 'urn:calc'
+Push NOT OK: no match found for 'urn:calc' in namespace mapping table (added to stack anyway)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\mirek\calc2\stdsoap2.cpp(12566): malloc(42) = 003D1628
+c:\mirek\calc2\stdsoap2.cpp(7619): malloc(42) = 003D16E0
+c:\mirek\calc2\stdsoap2.cpp(7666): malloc(64) = 003D1798
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Tags 'ns:addResponse' and 'ns:addResponse' match but namespaces differ
+Receiving SOAP Fault
+Error: soap_get_soapfault() failed. Is this a SOAP message at all?
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(48) = 003D1868
+Shutdown socket 3992 how=2
+Close socket 3992
+Initializing
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00118AB4 type=6: not found
+Lookup location=00118ABC type=6: not found
+c:\mirek\calc2\stdsoap2.cpp(6375): malloc(96) = 003D0FF0
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=00118AB4 type=10: not found
+Embedded_id 00118AB4 type=10 id=0
+Element begin tag='ns:add' id='0' type=''
+Embedded_id 00118AB4 type=6 id=-1
+Lookup location=00118AB4 type=6: not found
+Element begin tag='a' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00118ABC type=6 id=-1
+Lookup location=00118ABC type=6: not found
+Element begin tag='b' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='websrv.cs.fsu.edu' path='/~engelen/calcserver.cgi' port=80
+Opening socket 3992 to host='websrv.cs.fsu.edu' port=80
+Calculating the message size with attachments, current count=446
+New count is 446 bytes
+Begin send phase (socket=3992 mode=0x1 count=446)
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(12) = 003D10E0
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=00118AB4 type=10: not found
+Embedded_id 00118AB4 type=10 id=0
+Element begin tag='ns:add' id='0' type=''
+Embedded_id 00118AB4 type=6 id=-1
+Lookup location=00118AB4 type=6: not found
+Element begin tag='a' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00118ABC type=6 id=-1
+Lookup location=00118ABC type=6: not found
+Element begin tag='b' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\mirek\calc2\stdsoap2.cpp(5787): free(003D0FF0)
+Free pointer hashtable
+Free ID hashtable
+c:\mirek\calc2\stdsoap2.cpp(6375): malloc(96) = 003D0FF0
+Free ID hashtable
+Read 167 bytes from socket 3992
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Date: Wed, 15 Nov 2006 10:48:09 GMT
+HTTP header: Server: Apache/2.0.51 (Fedora)
+HTTP header: Content-Length: 464
+HTTP header: Connection: close
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(36) = 003D11C8
+Finished HTTP header parsing
+Keep alive connection = 0
+Read 464 bytes from socket 3992
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\mirek\calc2\stdsoap2.cpp(7619): malloc(25) = 003D1278
+Enlarging look-aside buffer to append data, old size=0, new size=64
+c:\mirek\calc2\stdsoap2.cpp(7441): malloc(64) = 003D1320
+c:\mirek\calc2\stdsoap2.cpp(7666): malloc(64) = 003D13F0
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(28) = 003D14C0
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(28) = 003D1568
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(23) = 003D1610
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(23) = 003D16B8
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\mirek\calc2\stdsoap2.cpp(2501): malloc(22) = 003D1760
+Push namespace binding (level=0) 'ns' 'urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\mirek\calc2\stdsoap2.cpp(12566): malloc(42) = 003D1808
+c:\mirek\calc2\stdsoap2.cpp(7619): malloc(42) = 003D18C0
+c:\mirek\calc2\stdsoap2.cpp(7666): malloc(64) = 003D1978
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'ns:addResponse' 'ns:addResponse'
+Begin element found (level=3) 'ns:addResponse'='ns:addResponse'
+Enter id='' type=9 loc=00000000 size=4 level=0
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(16) = 003D1A48
+Tags match: 'result' 'result'
+Begin element found (level=4) 'result'='result'
+Reverting last element (level=3)
+Tags match: 'result' 'result'
+Begin element found (level=4) 'result'='result'
+Enter id='' type=6 loc=00000000 size=8 level=0
+c:\mirek\calc2\stdsoap2.cpp(5053): malloc(20) = 003D7078
+Element content value='11'
+End element found (level=3) 'result'='result'
+End element found (level=2) 'ns:addResponse'='ns:addResponse'
+End element found (level=1) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Popped namespace binding (level=0) 'ns'
+c:\mirek\calc2\stdsoap2.cpp(2533): free(003D1760)
+Popped namespace binding (level=0) 'xsd'
+c:\mirek\calc2\stdsoap2.cpp(2533): free(003D16B8)
+Popped namespace binding (level=0) 'xsi'
+c:\mirek\calc2\stdsoap2.cpp(2533): free(003D1610)
+Popped namespace binding (level=0) 'SOAP-ENC'
+c:\mirek\calc2\stdsoap2.cpp(2533): free(003D1568)
+Popped namespace binding (level=0) 'SOAP-ENV'
+c:\mirek\calc2\stdsoap2.cpp(2533): free(003D14C0)
+End element found (level=0) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 3992 how=2
+Close socket 3992
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\mirek\calc2\stdsoap2.cpp(5764): free(003D1978)
+c:\mirek\calc2\stdsoap2.cpp(5765): free(003D18C0)
+c:\mirek\calc2\stdsoap2.cpp(5764): free(003D13F0)
+c:\mirek\calc2\stdsoap2.cpp(5765): free(003D1278)
+c:\mirek\calc2\stdsoap2.cpp(5770): free(003D1320)
+c:\mirek\calc2\stdsoap2.cpp(5781): free(003D1808)
+c:\mirek\calc2\stdsoap2.cpp(5787): free(003D0FF0)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+c:\mirek\calc2\stdsoap2.cpp(5207): free(003D7078)
+c:\mirek\calc2\stdsoap2.cpp(5207): free(003D1A48)
+c:\mirek\calc2\stdsoap2.cpp(5207): free(003D11C8)
+c:\mirek\calc2\stdsoap2.cpp(5207): free(003D10E0)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\mirek\calc2\stdsoap2.cpp(3175): free(003D3DA0)
+c:\mirek\calc2\stdsoap2.cpp(3175): free(003D3E38)
+c:\mirek\calc2\stdsoap2.cpp(3175): free(003D3ED0)

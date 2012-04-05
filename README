@@ -1,0 +1,10 @@
+name: soap_calc	
+author:  Miroslav Safr <miroslav.safr@gmail.com> 
+web: https://github.com/safrm/soap_calc
+description: multiplatformal SOAP server/client calculator 
+
+usage:
+	1.run server (with optional master and slave socket number)
+	server 80 8080
+	2. run windows client and set up right server host
+        3. start to count.
