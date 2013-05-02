@@ -1,7 +1,7 @@
 /****************************************************************************
 **
 ** Author: Miroslav Safr <miroslav.safr@gmail.com>
-** Web: https://github.com/safrm/soap_calc
+** Web: http://safrm.net/projects/soap_calc
 **
 ** GNU Lesser General Public License Usage
 ** This file may be used under the terms of the GNU Lesser General Public

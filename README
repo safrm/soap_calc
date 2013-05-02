@@ -1,6 +1,6 @@
 name: soap_calc	
 author:  Miroslav Safr <miroslav.safr@gmail.com> 
-web: https://github.com/safrm/soap_calc
+web: http://safrm.net/projects/soap_calc
 description: multiplatformal SOAP server/client calculator 
 
 usage:
